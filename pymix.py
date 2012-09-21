@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# TODO add loop count to intermitent noise
+
 #import
 import time
 import subprocess
@@ -11,7 +13,7 @@ intermittent_dir = "intermittent"
 constant_dir = "constant"
 weather_dir = "loop"
 volume_flag = "-volume"
-quiet_flag = "-quiet"
+quiet_flag = "-really-quiet"
 max_constant_vol = 60
 min_constant_vol = 40
 max_intermittent_vol = 100
